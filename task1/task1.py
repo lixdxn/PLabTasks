@@ -1,7 +1,7 @@
 import sys
 
 
-def calcular_path(n, m):
+def calculate_path(n, m):
     start = 1
     path = []
 
@@ -20,5 +20,4 @@ if len(sys.argv) != 3:
 n = int(sys.argv[1])
 m = int(sys.argv[2])
 
-print(calcular_path(n, m))
-
+print(calculate_path(n, m))
